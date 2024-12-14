@@ -58,7 +58,6 @@ You should be able to replicate the following plots:
 ```{r, include = T, warning = F}
 library(devtools)
 dat <- read.csv("data/contraceptive_use-1.csv")
-
 est <- read.csv("data/est-1.csv") 
 load_all("../plotcp")
 plot_cp(dat, est, iso_code = 4)
